@@ -116,7 +116,17 @@ h3 {
 h4 {
   font-size: 18px;
 }
-
+h5 {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+}
+strong {
+  font-weight: 400;
+}
+cite, em {
+  font-style: italic;
+}
 
 
 /**
@@ -188,4 +198,16 @@ Custom styles
  * body {
   color: #888;
   font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
 }
